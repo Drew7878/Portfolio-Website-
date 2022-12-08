@@ -1,0 +1,135 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero {
+    background-color:rgb(128, 185, 166);
+    height: 100vh;
+    font-size: 40px;
+
+}
+footer {
+    height: 500px;
+    background-color: rgb(128, 185, 166);
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    
+}
+ul {
+   display: flex; 
+   list-style-type: none;
+   width: 500px;
+   justify-content: inline;
+   font-size: 30px;
+}
+li {
+    /*width: 200px;*/
+    text-decoration: none;
+}
+h1{
+    font-size: 90px;
+    margin: 0;
+}
+h2 {
+    font-size: 50px;
+}
+p {
+    margin: 0;
+    font-weight: 300;
+    font-size: 30px;
+}
+.subtext {
+    font-size:15px;
+    font-weight: 300;
+}
+.hero-area{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-text {
+    margin-left: 80px;
+    margin-bottom: 200px;
+}
+.button {
+    width: 200px;
+    height: 55px;
+    border-radius: 20px;
+    background-color: rgb(101, 194, 231);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 5px;
+    margin: top 20px;
+
+
+}
+.button:hover {
+    background: rgb(208, 202, 202);
+}
+.button:active {
+    background-color: azure;
+    color:rgb(106, 106, 103)
+}
+.socials {
+    padding: 200px;
+    
+}
+.logo {
+    height: 150px;
+    margin: 30px;
+}
+.social {
+    margin: 20px;
+}
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+.sub-section-alternative {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
+.headshot {
+    width: 300px;
+    border-radius: 150px;
+}
+.headshot-container {
+    display: flex;
+    align-items: center;
+}
+.project-card {
+    width: 100px;
+    height: 100px;
+    border: 5px 5px 20px border rgb(6, 6, 6);
+}
+.project-container {
+    display: flex;
+    justify-content: space-around;
+}
+.project-image {
+    margin-top: 25px;
+    width: 250px;
+    border: 125px;
+    margin-left:170px
+}
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.project-link{
+    decoration:none;
+    color: rgb(57, 218, 116);
+}
+a {
+    text-decoration: none;
+    color:rgb(5, 5, 5);
+    padding: 8px;
+
+}
