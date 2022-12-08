@@ -6,6 +6,7 @@ body {
     background-color:rgb(128, 185, 166);
     height: 100vh;
     font-size: 40px;
+    
 
 }
 footer {
@@ -20,7 +21,7 @@ nav {
 ul {
    display: flex; 
    list-style-type: none;
-   width: 500px;
+   width: 600px;
    justify-content: inline;
    font-size: 30px;
 }
@@ -37,8 +38,8 @@ h2 {
 }
 p {
     margin: 0;
-    font-weight: 300;
-    font-size: 30px;
+   
+    font-size: 20px;
 }
 .subtext {
     font-size:15px;
@@ -84,6 +85,7 @@ p {
 }
 .social {
     margin: 20px;
+    margin-left: 1000px;
 }
 .sub-section {
     display: flex;
@@ -95,6 +97,8 @@ p {
     flex-direction: column;
     text-align: center;
     padding: 80px;
+    margin-left: 600px;
+    margin-right:300px
 }
 .headshot {
     width: 300px;
@@ -131,5 +135,8 @@ a {
     text-decoration: none;
     color:rgb(5, 5, 5);
     padding: 8px;
+    
+
+    
 
 }
